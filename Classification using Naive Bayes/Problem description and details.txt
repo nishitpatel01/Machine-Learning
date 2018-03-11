@@ -1,0 +1,33 @@
+Below are the decription of the problem. 
+
+Problem 1
+
+
+The UC Irvine machine learning data repository hosts a famous collection of data on whether a patient has diabetes (the Pima Indians dataset), originally owned by the National Institute of Diabetes and Digestive and Kidney Diseases 
+and donated by Vincent Sigillito. You can find this data at http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes. You should look over the site and check the description of the data. In the "Data Folder" directory, 
+the primary file you need is named "pima-indians-diabetes.data". This data has a set of attributes of patients, and a categorical variable telling whether the patient is diabetic or not. For several attributes in this data set, 
+a value of 0 may indicate a missing value of the variable.
+
+Part 1A 
+	Build a simple naive Bayes classifier to classify this data set. We will use 20% of the data for evaluation and the other 80% for training. There are a total of 768 data-points.
+	You should use a normal distribution to model each of the class-conditional distributions. You should write this classifier yourself (it's quite straight-forward).
+    	Report the accuracy of the classifier on the 20% evaluation data, where accuracy is the number of correct predictions as a fraction of total predictions.
+
+Part 1B 
+	Now adjust your code so that, for attribute 3 (Diastolic blood pressure), attribute 4 (Triceps skin fold thickness), attribute 6 (Body mass index), and attribute 8 (Age), it regards a value of 0 as a missing value when 
+	estimating the class-conditional distributions, and the posterior. R uses a special number NA to flag a missing value. Most functions handle this number in special, but sensible, ways; but you'll need to do a bit of looking at
+	manuals to check. Report the accuracy of the classifier on the 20% that was held out for evaluation.
+    
+Part 1C 
+	Now use the caret and klaR packages to build a naive bayes classifier for this data, assuming that no attribute has a missing value. The caret package does cross-validation (look at train) and can be used to hold out data. 
+	You should do 10-fold cross-validation. You may find the following fragment helpful train (features, labels, classifier, trControl=trainControl(method='cv',number=10)) The klaR package can estimate class-conditional densities 
+	using a density estimation procedure that I will describe much later in the course. I have not been able to persuade the combination of caret and klaR to handle missing values the way I'd like them to, but that may be 
+	ignorance (look at the na.action argument). Report the accuracy of the classifier on the held out 20%
+
+Part 1-D 
+	Now install SVMLight, which you can find at http://svmlight.joachims.org, via the interface in klaR (look for svmlight in the manual) to train and evaluate an SVM to classify this data. For training the model, use:svmlight 
+	(features, labels, pathsvm). You don't need to understand much about SVM's to do this as we'll do that in following exercises. You should NOT substitute NA values for zeros for attributes 3, 4, 6, and 8.
+	Using the predict function in R, report the accuracy of the classifier on the held out 20%
+
+	Hint If you are having trouble invoking svmlight from within R Studio, make sure your svmlight executable directory is added to your system path. Here are some instructions about editing your system path on various 
+	operating systems: https://www.java.com/en/download/help/path.xml You would need to restart R Studio (or possibly restart your computer) afterwards for the change to take effect.

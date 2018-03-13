@@ -12,4 +12,10 @@ Various machine learning examples using public datasets
 - Neural Networks
 - Boosting
 
-Code and content coming soon!
+# Latest updates on repo
+- Classification using naive bayes and random forest added
+
+# Next incoming topics
+- more random forest
+- principal component analysis
+- support vector machine

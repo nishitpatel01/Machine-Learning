@@ -2,8 +2,10 @@
 Below are the description of the problem.  
 
 
-Dataset for the problem can be found at http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes. In the "Data Folder" directory, the primary file you need is named "pima-indians-diabetes.data". This data has a set of attributes of patients, and a categorical variable telling whether the patient is diabetic or not. For several attributes in this data set, 
-a value of 0 may indicate a missing value of the variable.
+Dataset for the problem can be found at http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes. 
+In the "Data Folder" directory, the primary file you need is named "pima-indians-diabetes.data". T
+his data has a set of attributes of patients, and a categorical variable telling whether the patient is diabetic or not. 
+For several attributes in this data set, a value of 0 may indicate a missing value of the variable.
 
 Part 1A 
 	Build a simple naive Bayes classifier to classify this data set. We will use 20% of the data for evaluation and the other 80% for training. There are a total of 768 data-points.

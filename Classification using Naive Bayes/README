@@ -1,11 +1,7 @@
 
-Below are the decription of the problem. 
+Below are the description of the problem. 
 
-Problem 1
-
-The UC Irvine machine learning data repository hosts a famous collection of data on whether a patient has diabetes (the Pima Indians dataset), originally owned by the National Institute of Diabetes and Digestive and Kidney Diseases 
-and donated by Vincent Sigillito. You can find this data at http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes. You should look over the site and check the description of the data. In the "Data Folder" directory, 
-the primary file you need is named "pima-indians-diabetes.data". This data has a set of attributes of patients, and a categorical variable telling whether the patient is diabetic or not. For several attributes in this data set, 
+Dataset for the problem can be found at http://archive.ics.uci.edu/ml/datasets/Pima+Indians+Diabetes. In the "Data Folder" directory, the primary file you need is named "pima-indians-diabetes.data". This data has a set of attributes of patients, and a categorical variable telling whether the patient is diabetic or not. For several attributes in this data set, 
 a value of 0 may indicate a missing value of the variable.
 
 Part 1A 

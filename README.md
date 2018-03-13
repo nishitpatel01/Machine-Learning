@@ -14,8 +14,9 @@ Various machine learning examples using public datasets
 
 # Latest updates on repo
 - Classification using naive bayes and random forest added
+- Support vector machine added
 
 # Next incoming topics
 - more random forest
 - principal component analysis
-- support vector machine
+

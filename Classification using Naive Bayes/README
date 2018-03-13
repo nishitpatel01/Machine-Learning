@@ -23,7 +23,7 @@ Part 1C
 	using a density estimation procedure that I will describe much later in the course. I have not been able to persuade the combination of caret and klaR to handle missing values the way I'd like them to, but that may be 
 	ignorance (look at the na.action argument). Report the accuracy of the classifier on the held out 20%
 
-Part 1-D 
+Part 1D 
 	Now install SVMLight, which you can find at http://svmlight.joachims.org, via the interface in klaR (look for svmlight in the manual) to train and evaluate an SVM to classify this data. For training the model, use:svmlight 
 	(features, labels, pathsvm). You don't need to understand much about SVM's to do this as we'll do that in following exercises. You should NOT substitute NA values for zeros for attributes 3, 4, 6, and 8.
 	Using the predict function in R, report the accuracy of the classifier on the held out 20%

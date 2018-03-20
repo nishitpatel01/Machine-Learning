@@ -13,10 +13,11 @@ Various machine learning examples using public datasets
 - Boosting
 
 # Latest updates on repo
-- Classification using naive bayes and random forest added
-- Support vector machine added
+- principal component analysis
 
 # Next incoming topics
-- more random forest
-- principal component analysis
+- Clustering
+- Regression
+- Generalized Regression
+
 

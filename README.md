@@ -13,11 +13,11 @@ Various machine learning examples using public datasets
 - Boosting
 
 # Latest updates on repo
-- principal component analysis
+- Clustering
 
 # Next incoming topics
-- Clustering
 - Regression
 - Generalized Regression
+
 
 

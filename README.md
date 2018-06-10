@@ -10,7 +10,6 @@ Various machine learning examples using public datasets
 - Regression
 - Markov Chains and Hidden Markov Models
 - Neural Networks
-- Boosting
 
 # Latest updates on repo
 - Clustering
@@ -18,6 +17,8 @@ Various machine learning examples using public datasets
 # Next incoming topics
 - Regression
 - Generalized Regression
+- Boltzman Machine Models
+- Deep Learning using Tensorflow
 
 
 

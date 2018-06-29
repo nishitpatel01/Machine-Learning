@@ -1,5 +1,4 @@
 
-# HW4
 # PROBLEM 1 - PART 1
 
 # load necessary packages 

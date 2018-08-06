@@ -12,10 +12,9 @@ Various machine learning examples using public datasets
 - Neural Networks
 
 # Latest updates on repo
-- Clustering
+- Regression
 
 # Next incoming topics
-- Regression
 - Generalized Regression
 - Boltzman Machine Models
 - Deep Learning using Tensorflow

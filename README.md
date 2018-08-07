@@ -13,10 +13,11 @@ Various machine learning examples using public datasets
 
 # Latest updates on repo
 - Regression
+- Generalized Linear Models
 
-# Next incoming topics
-- Generalized Regression
-- Boltzman Machine Models
+# Next incoming 
+- Clustering using Expectation Maximization Algorithm - Image Processing
+- Boltzman Machine Models - Image Processing 
 - Deep Learning using Tensorflow
 
 

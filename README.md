@@ -1,5 +1,5 @@
 # Machine-Learning-Examples
-Various machine learning examples using public datasets
+Various machine learning projects using public datasets
 
 # Topics Covered
 - Classification using Naive Bayes and Nearest Neighbours

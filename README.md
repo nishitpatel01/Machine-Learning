@@ -19,6 +19,9 @@ Various machine learning projects using public datasets
 - Clustering using Expectation Maximization Algorithm - Image Processing
 - Boltzman Machine Models - Image Processing 
 - Deep Learning using Tensorflow
-
+- Time Series Modeling
+- Sentiment Analysis 
+- Classification using Tree Based Models (XGBoost)
+- Regression Using Tree Based Models (GBM)
 
 

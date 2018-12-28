@@ -15,7 +15,7 @@ Various machine learning projects using public datasets
 - Generalized Linear Models
 - Clustering using Expectation Maximization Algorithm - Image processing
 
-# Next incoming 
+# Upcoming 
 - Boltzman Machine Models - Image Processing 
 - Deep Learning using Tensorflow
 - Time Series Modeling

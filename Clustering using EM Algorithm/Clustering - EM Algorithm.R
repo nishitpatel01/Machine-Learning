@@ -4,10 +4,7 @@
 # http://rstudio-pubs-static.s3.amazonaws.com/154174_78c021bc71ab42f8add0b2966938a3b8.html
 # http://www.stat.tamu.edu/~suhasini/teaching613/Mixture_of_Normals_Karl.R
 # http://rstudio-pubs-static.s3.amazonaws.com/1001_3177e85f5e4840be840c84452780db52.html
-# https://github.com/neeasthana/CS498MachineLearning/blob/master/HW5/HW5.R
 # https://www.r-bloggers.com/r-k-means-clustering-on-an-image/
-
-
 
 # loading necessary packages for homework
 library(matrixStats)

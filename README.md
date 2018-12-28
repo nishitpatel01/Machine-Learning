@@ -12,11 +12,10 @@ Various machine learning projects using public datasets
 - Neural Networks
 
 # Latest updates on repo
-- Regression
 - Generalized Linear Models
+- Clustering using Expectation Maximization Algorithm - Image processing
 
 # Next incoming 
-- Clustering using Expectation Maximization Algorithm - Image Processing
 - Boltzman Machine Models - Image Processing 
 - Deep Learning using Tensorflow
 - Time Series Modeling

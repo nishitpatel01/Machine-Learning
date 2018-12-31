@@ -8,15 +8,16 @@ Various machine learning projects using public datasets
 - High Dimentional Data - Principal Component Analysis
 - Clustering
 - Regression
+- Generalized Linear Models
+- Boltzmman Machine Models 
 - Markov Chains and Hidden Markov Models
 - Neural Networks
 
 # Latest updates on repo
-- Generalized Linear Models
 - Clustering using Expectation Maximization Algorithm - Image processing
+- Boltzmman Machine Models - Image Processing 
 
 # Upcoming 
-- Boltzman Machine Models - Image Processing 
 - Deep Learning using Tensorflow
 - Time Series Modeling
 - Sentiment Analysis 

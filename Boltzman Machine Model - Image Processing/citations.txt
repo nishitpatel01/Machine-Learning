@@ -1,0 +1,4 @@
+
+citations used for this homework
+
+1. https://martin-thoma.com/classify-mnist-with-pybrain/

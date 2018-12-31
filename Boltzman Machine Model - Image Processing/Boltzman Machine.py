@@ -5,10 +5,6 @@ Created on Mon Apr  9 20:32:47 2018
 @author: NishitP
 """
 
-# HW 8 
-# references for this exercise
-# https://martin-thoma.com/classify-mnist-with-pybrain/
-
 
 # import required packages for this exercise
 import numpy as np

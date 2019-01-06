@@ -12,14 +12,14 @@ Various machine learning projects using public datasets
 - Boltzmman Machine Models 
 - Markov Chains and Hidden Markov Models
 - Neural Networks
+- Clustering using Expectation Maximization Algorithm - Image processing
 
 # Latest updates on repo
-- Clustering using Expectation Maximization Algorithm - Image processing
 - Boltzmman Machine Models - Image Processing 
+- Deep Learning using Tensorflow
 
 # Upcoming 
-- Deep Learning using Tensorflow
-- Time Series Modeling
+- Time Series Analysis
 - Sentiment Analysis 
 - Classification using Tree Based Models (XGBoost)
 - Regression Using Tree Based Models (GBM)

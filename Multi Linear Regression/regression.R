@@ -270,21 +270,3 @@ pred <- predict(glm_model_log_with_gender, newx = x_var, s = "lambda.1se")
 r2_log_gender <- cor(y_var, exp(pred))^2
 
 
-#r2_no_gender <- glm_model_no_gender$glmnet.fit$dev.ratio[which(glm_model_no_gender$glmnet.fit$lambda == glm_model_no_gender$lambda.1se)]
-#r2_gender <- glm_model_with_gender$glmnet.fit$dev.ratio[which(glm_model_with_gender$glmnet.fit$lambda == glm_model_with_gender$lambda.1se)]
-#r2_log_no_gender <- glm_model_log_no_gender$glmnet.fit$dev.ratio[which(glm_model_log_no_gender$glmnet.fit$lambda == glm_model_log_no_gender$lambda.1se)]
-#r2_log_gender <- glm_model_log_with_gender$glmnet.fit$dev.ratio[which(glm_model_log_with_gender$glmnet.fit$lambda == glm_model_log_with_gender$lambda.1se)]
-
-## r squared values
-# r2_no_gender_a - 0.5276299
-# r2_gender_b - 0.5378844
-# r2_log_no_gender_c - 0.5019077
-# r2_log_gender_d - 0.5160649
-
-# r2_no_gender - 0.471
-# r2_gender - 0.421
-# r2_log_no_gender - 0.441
-# r2_log_gender - 0.475
-
-
-

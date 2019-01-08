@@ -1,10 +1,4 @@
 
-# HW6
-
-# references used for this exercise:
-# http://www4.stat.ncsu.edu/~post/josh/LASSO_Ridge_Elastic_Net_-_Examples.html
-# https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html
-
 
 # loading necessary packages for homework
 library(glmnet)
@@ -275,22 +269,5 @@ plot(glmnet5)
 plot(glmnet6)
 plot(glmnet8)
 plot(glmnet1)
-
-
-# -----------------------------------------------------------------------
-# TEST CODE USED FOR EXERCICE PURPOSE
-# -----------------------------------------------------------------------
-
-
-
-# glmnet0$glmnet.fit$dev.ratio[which(glmnet0$glmnet.fit$lambda == glmnet0$lambda.min)] 
-# glmnet2$glmnet.fit$dev.ratio[which(glmnet2$glmnet.fit$lambda == glmnet2$lambda.min)] 
-# glmnet4$glmnet.fit$dev.ratio[which(glmnet4$glmnet.fit$lambda == glmnet4$lambda.min)] 
-# glmnet5$glmnet.fit$dev.ratio[which(glmnet5$glmnet.fit$lambda == glmnet5$lambda.min)] 
-# glmnet6$glmnet.fit$dev.ratio[which(glmnet6$glmnet.fit$lambda == glmnet6$lambda.min)] 
-# glmnet8$glmnet.fit$dev.ratio[which(glmnet8$glmnet.fit$lambda == glmnet8$lambda.min)] 
-# glmnet1$glmnet.fit$dev.ratio[which(glmnet1$glmnet.fit$lambda == glmnet1$lambda.min)] 
-
-
 
 
